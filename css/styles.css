@@ -1,0 +1,1177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400');
+
+/*General*/
+body {
+	margin-top:2em;
+	background-color: #fff;
+	font-family: "Avenir", sans-serif;
+	text-align: center;
+	font-size: 1em;
+	color: #333333;
+}
+
+.wrapper {
+	top:10em;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #0000b3;
+	margin: 0 1% 0 1%;
+}
+
+a:hover {
+	color: #cc0000;
+}
+
+.paragraph {
+	margin: 4% 0;
+}
+
+/*Nav*/
+
+.nav {
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color: #fff;
+	padding-bottom:1em;
+	margin-left:3em;
+
+}
+
+.nav-mobile, .nav-tablet{
+	display:none;
+}
+
+
+/* Links inside the navbar */
+.nav a {
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left:4em;
+    padding: 1em;
+    text-decoration: none;
+    font-size:1em;
+    font-family:"Oswald", sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+}
+
+.home {
+	width:90px;
+	margin-top: -2em;
+    text-decoration: none;
+}
+
+/*#homepage-header {
+	font-family: "Grand Hotel", cursive;
+	font-size:2.3em;
+    text-decoration: none;
+    margin-top: .2em;
+    margin-left:2.6em;
+    margin-bottom:.5em;
+    padding: .3em .6em;
+    text-decoration: none;
+}*/
+
+
+/*Homepage*/
+
+header {
+	margin-top:6em;
+}
+
+img {
+	width:85%;
+}
+
+/*About Us*/
+
+#About-Us {
+	text-align:center;
+	margin:7em auto;
+	width:76%;
+}
+
+#About-Us-mobile {
+	display:none;
+}
+
+#proposal-video-mobile {
+	display:none;
+}
+
+
+.left {
+	float:left;
+	width:50%;
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+.right {
+	float:left;
+	width:50%;
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+
+.left h1 {
+	font-family: "Oswald", sans-serif;
+	font-weight:200;
+	text-transform:uppercase;
+	font-size:1.5em;
+	margin:1em 0;
+	color:#000;
+}
+
+.right h1 {
+	font-family: "Oswald", sans-serif;
+	font-weight:200;
+	text-transform:uppercase;
+	font-size:1.5em;
+	margin:1em 0;
+	color:#000;
+}
+
+.photo {
+	width:65%;
+	border-radius:50%;
+	margin:2em 0 5em 0;
+}
+
+.photo2 {
+	width:65%;
+	border-radius:50%;
+	margin:3em 0 5em 4em;
+}
+
+.photo3 {
+	width:65%;
+	border-radius:50%;
+	margin:7em 2em 5em 0;
+}
+
+.about-us-info{
+	width:100%;
+	text-align:center;
+	margin:0 auto 6em 0;
+	line-height:1.3em;
+	font-size:1em;
+}
+
+#proposal-video {
+	clear:both;
+	margin:0 auto;
+}
+
+
+/*Photos*/
+.engagement-party-photos {
+	width:70%;
+	margin:0 auto;
+}
+
+.engagement-shoot-photos {
+	width:50%;
+	margin:0 auto;
+}
+
+#photo-page {
+	margin-top:	10em;
+}
+
+.photo-page-image {
+	width: 60%;
+	margin:	0 auto;
+	text-align:center;
+}
+
+* {box-sizing:border-box}
+.mySlides {display:none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+	margin:0 auto;
+	margin-top:8em;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: .9}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: .9}
+}
+
+
+/*Wedding*/
+
+.nycc {
+	display: block;
+	width: 60%;
+	margin: .5em auto;
+	border-radius:5%;
+}
+
+.wedding-form {
+  height: 60em;
+  width: 40em;
+  background-color: #fff;
+  margin:0 auto;
+  margin-top:9em;
+  border-radius: 1em;
+  border:.2em dotted grey;
+  color: #666;
+  padding-bottom:2em;
+}
+
+.info {
+  padding: 2em;
+}
+
+h1, h2, p {
+  text-align: center;
+  padding: 0em;
+  margin: .1em;
+
+}
+
+h1{
+	font-family:"Grand Hotel", cursive;
+	font-size:3em;
+   line-height:1.5em;
+   color:#0000b3;
+   margin-bottom:0em;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size:1.5em;
+  line-height:1.2em;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  font-size:1em;
+  padding-bottom:.2em;
+}
+
+p {
+	line-height:1.6em;
+}
+p.line {
+  margin: 0em auto 1em auto;
+  color: #999;
+}
+
+/*Engagement Party Form 
+
+/*.top {
+  background-color: #0000b3;
+  height: 15em;
+  margin:2em 0 0 0;
+  padding:0;
+  box-shadow: 1em 1em 2em rgb(0, 0, 0, .25);
+}
+
+.library-images {
+	float: left;
+	margin-left:5em;
+	margin-top:2em;
+}
+
+.lib-cafe {
+	display: block;
+	width: 55%;
+	margin: .5em auto;
+	border-radius:5%;
+}
+
+.form {
+  height: 42em;
+  width: 25em;
+  background-color: #fff;
+  margin-top:10em;
+  margin-left: 40em;
+  border-radius: 1em;
+  border:.2em dotted grey;
+  color: #666;
+  padding-bottom:2em;
+}
+
+.info {
+  padding: 2em;
+}
+
+h1, h2, p {
+  text-align: center;
+  padding: 0em;
+  margin: .1em;
+}
+
+h1{
+	font-family:"Grand Hotel", cursive;
+	font-size:3em;
+   line-height:1.5em;
+   color:#0000b3;
+   margin-bottom:0em;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size:1.5em;
+  line-height:1.2em;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  font-size:1em;
+}
+
+p {
+	line-height:1.5em;
+}
+p.line {
+  margin: 0em auto 1em auto;
+  color: #999;
+}
+
+.text-field {
+  font-size: 1em;
+  font-family:'Avenir', sans-serif;
+  color: #666;
+  padding: .5em;
+  margin: .5em auto 2em auto;
+  display: block;
+  width: 75%;  
+}
+
+input:focus {
+  outline: 0;
+}
+
+.radio {
+  color: #666;
+  font-family: 'Avenir', sans-serif;
+  margin:1em auto;
+ }
+
+
+.accept  {
+  width:23em;
+  color: #fff;
+  background-color: #cc0000;
+  border: none;
+  font-family: 'Avenir';
+  font-size: 1em;
+  border-radius: .3em;
+  display: inline-block;
+  margin-top:-2em;
+}
+
+
+.accept:hover {
+  background-color: #cc919a;
+}
+
+
+button:focus {
+  outline: 0;
+}
+
+.thank-you-page {
+	width:80%;
+	text-align: center;
+}
+
+.thank-you-page h2{
+	margin-top:4em;
+	font-size:3em;
+}
+
+.thank-you-page h3{
+	margin-bottom:5em;
+	margin-top:1em;
+	font-size:1.4em;
+}
+*/
+
+
+/*Bridal Party*/
+
+
+#bridal-header {
+	text-align:center;
+	font-family:"Oswald", sans-serif;
+	font-weight:300;
+	font-size:2.3em;
+	text-transform:uppercase;
+	margin: 3em auto 1em 2em;
+}
+
+.bridesmaids {
+	margin-right:3.7em;
+	margin-top:10em;
+}
+
+#bridesmaid-column-1 {
+	float:left;
+	width:25%;
+	margin-top:6em;
+	margin-bottom:1em;
+}
+
+#bridesmaid-column-2 {
+	float:left;
+	width:25%;
+	margin-top:6em;
+	margin-bottom:1em;
+}
+
+#bridesmaid-column-3 {
+	float:left;
+	width:25%;
+	margin-top:6em;
+	margin-bottom:1em;
+}
+
+#bridesmaid-column-4 {
+	float:left;
+	width:25%;
+	margin-top:6em;
+	margin-bottom:1em;
+}
+
+#bridesmaid-top {
+	margin:0 auto -2em auto;
+}
+
+.bridesmaid-image-top {
+	width:14%;
+	border-radius:50%;
+	margin:1em 17em 0 auto;
+}
+
+
+.bridesmaid-bio-top {
+	margin:-10em auto 1em 23em;
+}
+
+
+.bridesmaid-bio-top h3 {
+	font-family:"Oswald", sans-serif;
+	font-weight:200;
+	font-size:1em;
+	margin-bottom:.5em;
+}
+
+.bridesmaid-bio-top p {
+	width:40%;
+	font-size:.8em;
+	text-align:center;
+	margin: 0 auto;
+	line-height:1.5em;
+}
+
+.bridesmaid-image {
+	width:50%;
+	border-radius:50%;
+	display:block;
+	margin:1em 4em 9em auto;
+}
+
+
+.bridesmaid-bio {
+	margin:1em auto 8.3em 1em;
+	clear:both;
+}
+
+
+.bridesmaid-bio h3 {
+	font-family:"Oswald", sans-serif;
+	font-weight:200;
+	font-size:1em;
+	margin-bottom:.5em;
+}
+
+.bridesmaid-bio p {
+	width:100%;
+	font-size:.8em;
+	text-align:center;
+	margin: 0 auto;
+	line-height:1.5em;
+}
+
+.bridesmaid-bio-mid {
+	margin:-1em auto 8em 1em;
+}
+
+
+.bridesmaid-bio-mid h3 {
+	font-family:"Oswald", sans-serif;
+	font-weight:200;
+	font-size:1em;
+	margin-bottom:.5em;
+}
+
+.bridesmaid-bio-mid p {
+	width:100%;
+	font-size:.8em;
+	text-align:center;
+	margin: 0 auto;
+	line-height:1.5em;
+}
+
+
+/*Registry*/
+
+#registry-info {
+	text-align:center;
+}
+
+.registry-logo1 {
+	width:40%;
+	margin: 7em 0 1.5em 0;
+}
+
+.registry-link1 h2 {
+	font-size:2em;
+	font-family: "Oswald", sans-serif;
+	font-weight:200;
+}
+
+
+/*Footer*/
+
+footer {
+	clear:both;
+	margin-top: 2em;
+
+}
+
+#homepage-timer {
+	float:left;
+	font-size:1em;
+	margin-left:5.7em;
+	margin-bottom:1em;
+}
+
+#homepage-hashtag {
+	float:right;
+	font-size:1em;
+	margin-right:5.7em;
+	margin-bottom:1em;
+}
+
+
+/*Responsive Design*/
+
+@media screen and (min-width:900px) {
+	.bridesmaids-mobile {
+		display:none;
+	}
+
+	.bridesmaid-image-mobile {
+		display:none;
+	}
+
+	.bridesmaid-bio-mobile {
+		display:none;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.nav {
+		display:none;
+	}
+
+	.nav-mobile {
+		display:none;
+	}
+
+	.nav-tablet {
+		position:fixed;
+		top:0;
+	    background-color: #fff;
+	    display:block;
+	    margin-bottom:1em;
+	    padding-bottom:2em;
+
+	}
+
+	.nav-tablet a {
+		display:inline;
+		font-size:.8em;
+		font-family:'Avenir', sans-serif;
+		text-transform:uppercase;
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+
+	.home-tablet {
+		width:10%;
+		margin-top:5em;
+		margin-bottom:-2em;
+	}
+
+
+	#homepage-hero {
+		margin-top:7em;
+	}
+
+
+/*About Us*/
+	#About-Us {
+		display:none;
+	}
+
+	#About-Us-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+		margin-top:12em;
+
+	}
+
+	.photo-mobile {
+		width: 50%;
+		border-radius:50%;
+		margin:3em auto 2em auto;
+	}
+
+	#About-Us-mobile h1 {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+	}
+
+	.about-us-info-mobile {
+		width:60%;
+		margin:0 auto;	
+	}
+
+	#proposal-video {
+		width:400px;
+		height:200px;
+		margin-top:2em;
+	}
+
+	/*Photo Pages*/
+
+	.slideshow-container {
+		margin-top:10em;
+	}
+
+	/*Engagement Form*/
+
+	.lib-cafe {
+		display:none;
+	}
+	
+	.wedding-form {
+		margin:12em auto auto auto;
+		width:100%;
+		height:30%;
+	}
+
+	.info h2{
+		font-size:1.3em;
+	}
+
+	.info h1{
+		font-size:2.3em;
+		margin-bottom:1em;
+	}
+
+	.line {
+		display:none;
+	}
+
+
+	/*Bridal Party*/
+
+	.bridesmaids {
+		display:none;
+	}
+
+	.bridesmaids-mobile {
+		text-align:center;
+		margin-top:15em;
+	}
+
+	#bridal-header-mobile {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+		margin-top:1em;
+	}
+
+	.bridesmaid-image-mobile {
+		width: 50%;
+		border-radius:50%;
+		text-align:center;
+		display:block;
+		margin:2em auto;
+
+	}
+
+	.bridesmaid-bio-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+
+	}
+
+	.bridesmaid-bio-mobile {
+		margin:0 auto;
+		width:60%;
+
+	}
+
+	/*Registry*/
+
+	#registry-info {
+		margin-top:15em;
+	}
+
+	.registry-logo1 {
+		width:85%;
+	}
+
+	
+
+	/*Footer*/
+
+	#homepage-timer {
+		clear:both;
+		margin:1em 0em;
+		width:100%;
+		font-size:1em;
+	}
+	#homepage-hashtag {
+		clear:both;
+		margin:0em 0em 3em 0;
+		width:100%;
+		font-size:1em;
+	}
+
+}
+
+@media screen and (max-width:500px) {
+
+	/*Homepage and Nav*/
+
+	.nav {
+		display:none;
+	}
+
+	.nav-tablet {
+		display:none;
+	}
+
+	.nav-mobile {
+		position:fixed;
+		top:0;
+		left:1em;
+	    background-color: #fff;
+	    display:block;
+	    margin-bottom:1em;
+
+	}
+
+	.nav-mobile a {
+		display:block;
+		font-size:.9em;
+		font-family:'Avenir', sans-serif;;
+		text-transform:uppercase;
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+
+	.home-mobile {
+		width:20%;
+		margin-top:-1em;
+	}
+
+
+	#homepage-hero {
+		width:100%;
+		margin-top:11em;
+	}
+
+	/*About Us*/
+	#About-Us {
+		display:none;
+	}
+
+	#About-Us-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+		margin-top:15em;
+
+	}
+
+	.photo-mobile {
+		width: 50%;
+		border-radius:50%;
+		margin:3em auto 2em auto;
+	}
+
+	#About-Us-mobile h1 {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+	}
+
+	#proposal-video {
+		width:300px;
+		height:200px;
+		margin-top:2em;
+	}
+
+	/*Photos Page*/
+
+	#photo-page {
+		margin-top:	18em;
+	}
+	.slideshow-container {
+		margin-top:17em auto 0 auto;
+		text-align:center;
+	}
+
+	/*Engagement Party Photos*/
+	.slideshow-container {
+		margin-top:17em;
+		text-align:center;
+	}
+
+	/*Wedding Form*/
+
+	.lib-cafe {
+		display:none;
+	}
+	
+	.wedding-form {
+		margin:18em auto auto auto;
+		width:100%;
+	}
+
+	.info {
+		margin-bottom:1.5em;
+	}
+
+	.info h2{
+		font-size:1.3em;
+	}
+
+	.info h1{
+		font-size:2em;
+		margin-bottom:1em;
+	}
+
+	.info-mobile-only {
+		margin-top:1em;
+		margin-bottom:2.5em;
+	}
+
+	.line {
+		display:none;
+	}
+
+
+	/*Bridal Party*/
+
+	.bridesmaids {
+		display:none;
+	}
+
+	.bridesmaids-mobile {
+		text-align:center;
+		margin-top:18em;
+	}
+
+	#bridal-header-mobile {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+		margin-top:1em;
+	}
+
+	.bridesmaid-image-mobile {
+		width: 50%;
+		border-radius:50%;
+		text-align:center;
+		display:block;
+		margin:2em auto;
+
+	}
+
+	.bridesmaid-bio-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+
+	}
+
+	/*Registry*/
+
+	#registry-info {
+		margin-top:15em;
+	}
+
+	.registry-logo1 {
+		width:85%;
+		margin-top:15em;
+	}
+
+	
+
+	/*Footer*/
+
+	#homepage-timer {
+		clear:both;
+		margin:1em 0em;
+		width:100%;
+		font-size:1em;
+	}
+	#homepage-hashtag {
+		clear:both;
+		margin:0 auto;
+		width:100%;
+		font-size:1em;
+	}
+
+}
+
+@media screen and (max-width:320px) {
+
+	/*Homepage and Nav*/
+
+	.nav {
+		display:none;
+	}
+
+	.nav-tablet {
+		display:none;
+	}
+
+	.nav-mobile {
+		position:fixed;
+		top:0;
+		left:1em;
+	    background-color: #fff;
+	    display:block;
+	    margin-bottom:1em;
+
+	}
+
+	.nav-mobile a {
+		display:block;
+		font-size:.9em;
+		font-family:'Avenir', sans-serif;;
+		text-transform:uppercase;
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+
+	.home-mobile {
+		width:20%;
+		margin-top:-1em;
+	}
+
+
+	#homepage-hero {
+		width:100%;
+		margin-top:11em;
+	}
+
+	/*About Us*/
+	#About-Us {
+		display:none;
+	}
+
+	#About-Us-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+		margin-top:15em;
+
+	}
+
+	.photo-mobile {
+		width: 50%;
+		border-radius:50%;
+		margin:3em auto 2em auto;
+	}
+
+	#About-Us-mobile h1 {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+	}
+
+	#proposal-video {
+		width:300px;
+		height:200px;
+		margin-top:2em;
+	}
+
+	/*Photos Page*/
+	.slideshow-container {
+		margin-top:17em auto 0 auto;
+		text-align:center;
+	}
+
+	/*Engagement Party Photos*/
+	.slideshow-container {
+		margin-top:17em;
+		text-align:center;
+	}
+
+/*Wedding Form*/
+
+
+	.lib-cafe {
+		display:none;
+	}
+	
+	.wedding-form {
+		margin:18em auto auto auto;
+		width:100%;
+	}
+
+	.info {
+		margin-bottom:1.5em;
+	}
+
+	.info h2{
+		font-size:1.3em;
+	}
+
+	.info h1{
+		font-size:2em;
+		margin-bottom:1em;
+	}
+
+	.info-mobile-only {
+		margin-top:1em;
+		margin-bottom:2.5em;
+	}
+
+	.line {
+		display:none;
+	}
+
+
+
+	/*Bridal Party*/
+
+	.bridesmaids {
+		display:none;
+	}
+
+	.bridesmaids-mobile {
+		text-align:center;
+		margin-top:18em;
+	}
+
+	#bridal-header-mobile {
+		font-family:"Oswald", serif;
+		text-transform: uppercase;
+		color:#000;
+		font-size:1.3em;
+		margin-top:1em;
+	}
+
+	.bridesmaid-image-mobile {
+		width: 50%;
+		border-radius:50%;
+		text-align:center;
+		display:block;
+		margin:2em auto;
+
+	}
+
+	.bridesmaid-bio-mobile {
+		text-align:center;
+		display:block;
+		font-size:.9em;
+		line-height:2em;
+
+	}
+
+	/*Registry*/
+
+	#registry-info {
+		margin-top:15em;
+	}
+
+	.registry-logo1 {
+		width:85%;
+		margin-top:15em;
+	}
+
+	
+
+	/*Footer*/
+
+	#homepage-timer {
+		clear:both;
+		margin:1em 0em;
+		width:100%;
+		font-size:1em;
+	}
+	#homepage-hashtag {
+		clear:both;
+		margin:0 auto;
+		width:100%;
+		font-size:1em;
+	}
+
+}

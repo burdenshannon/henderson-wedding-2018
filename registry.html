@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="images/h2-icon.jpeg">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eric &amp; Caitlyn | June 30, 2018</title>
+</head>
+<body>
+  <nav class="nav">
+    <!--<a id="homepage-header" href="index.html">Eric &amp; Caitlyn</a>-->
+    <a id="nav-about" href="about.html">About Us</a>
+    <a id="nav-photos" href="photos.html">Photos</a>
+    <a id="nav-engagement" href="engagement-party.html">Engagement Party</a>
+    <a href="index.html"><img class="home" src="images/h2.jpeg"/></a>
+    <a id="nav-wedding" href="wedding.html">The Big Day</a>   
+    <a id="nav-bridal" href="bridal.html">Bridal Party</a>
+    <a id="nav-registry" href="registry.html">Our Registry</a>
+  </nav>
+  <nav class="nav-mobile">
+    <a href="index.html"><img class="home-mobile" src="images/h2.jpeg"/></a>
+    <a id="nav-about-mobile" href="about.html">About Us</a>
+    <a id="nav-photos-mobile" href="photos.html">Photos</a>
+    <a id="nav-engagement-mobile" href="engagement-party.html">Engagement Party</a>
+  <a id="nav-wedding-mobile" href="wedding.html">The Big Day</a> 
+    <a id="nav-bridal-mobile" href="bridal.html">Bridal Party</a>
+    <a id="nav-registry" href="registry.html">Our Registry</a>
+  </nav>
+  <nav class="nav-tablet">
+    <a id="nav-about-tablet" href="about.html">About Us</a>
+    <a id="nav-photos-tablet" href="photos.html">Photos</a>
+    <a id="nav-engagement-tablet" href="engagement-party.html">Engagement Party</a>
+    <a href="index.html"><img class="home-tablet" src="images/h2.jpeg"/></a>
+  <a id="nav-wedding-tablet" href="wedding.html">The Big Day</a> 
+    <a id="nav-bridal-tablet" href="bridal.html">Bridal Party</a>
+    <a id="nav-registry" href="registry.html">Our Registry</a>
+  </nav>
+<div class="wrapper">
+<h2>Eric &amp; Caitlyn are registered at:</h2>
+<img class="registry-logo1" src="images/bbb.png">
+<h2 class="registry-link1"><a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&inventoryCallEnabled=true&registryId=543941452&pwsurl=">Click here to view registry</a></h2>
+  <footer>
+  <!-- Display the countdown timer in an element -->
+<p id="homepage-timer"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("June 30, 2018 18:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("homepage-timer").innerHTML = days + " days until we say I Do! ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  <p id="homepage-hashtag">#HugsfortheHendersons</p>
+  </footer>
+</div>
+</body>
+</html>
