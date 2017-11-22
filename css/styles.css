@@ -217,18 +217,18 @@ img {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 8s;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 8s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .5} 
+  from {opacity: .7} 
   to {opacity: .9}
 }
 
 @keyframes fade {
-  from {opacity: .5} 
+  from {opacity: .7} 
   to {opacity: .9}
 }
 
@@ -267,7 +267,7 @@ h1, h2, p {
 
 h1{
 	font-family:"Grand Hotel", cursive;
-	font-size:3.5em;
+	font-size:3em;
    line-height:1.5em;
    color:#0000b3;
    margin-bottom:0em;
@@ -276,7 +276,7 @@ h1{
 h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
-  font-size:2em;
+  font-size:1.7em;
   line-height:1.5em;
 }
 
@@ -284,12 +284,13 @@ h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-transform:uppercase;
-  font-size:2em;
+  font-size:1.6em;
   padding-bottom:.4em;
 }
 
 p {
 	line-height:1.6em;
+	  font-size:1.15em;
 }
 p.line {
   margin: 0em auto 1em auto;
@@ -600,6 +601,40 @@ footer {
 
 
 /*Responsive Design*/
+
+@media screen and (max-width:1350px) {
+
+	/*Nav*/
+
+.nav {
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color: #fff;
+	padding-bottom:.5em;
+	margin-left:.3em;
+
+}
+
+.nav-mobile, .nav-tablet{
+	display:none;
+}
+
+
+/* Links inside the navbar */
+.nav a {
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left:4em;
+    padding: 1em;
+    text-decoration: none;
+    font-size:1em;
+    font-family:"Oswald", sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+}
 
 @media screen and (min-width:900px) {
 	.bridesmaids-mobile {
